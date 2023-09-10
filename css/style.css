@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-fundo: #FFFFFF;
+    --cor-cinza: #667085;
+    --cor-vinho: #8E2424;
+    --cor-cinzaclaro: #D9D9D9;
+    --cor-fundofooter: #F9FAFB;
+    --font-principal: 'Inter', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: var(--font-principal);
+    font-size: 16px;
+}
+
+.navegador {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.paginas_link {
+    text-decoration: none;
+    color: var(--cor-cinza);
+    margin-right: 2rem;
+}
+
+.botoes {
+    color: var(--cor-cinza);
+    background: none;
+    cursor: pointer;
+    border: none;
+    padding: 0.8rem 1rem;
+    font-size: 1rem;
+}
+
+.btn {
+    background-color: var(--cor-vinho);
+    color: var(--cor-fundo);
+    border-radius: 0.5rem;
+}
+
+.sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.sobre-nos {
+    color: var(--cor-vinho);
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: 4em;
+}
+
+.titulo {
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-top: 1em;
+}
+
+.texto {
+    color: var(--cor-cinza);
+    margin-top: 1.5em;
+    width: 50%;
+    line-height: 1.5rem;
+    font-size: 1.1rem;
+}
+
+.metricas-container {
+    display: flex;
+    margin: 4em 4em;
+}
+
+.metricas-caixa {
+    margin: 0 1.4em;
+    text-align: start;
+}
+
+.metricas-num {
+    color: var(--cor-vinho);
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.metricas-titulo {  
+    font-weight: bold;
+    margin-top: 1em;
+}
+
+.metricas-texto {
+    margin-top: 1em;
+    line-height: 1.3rem;
+    color: var(--cor-cinza);
+    font-size: 0.9rem;
+}
+
+.vagas-container {
+    text-align: center;
+    justify-content: center;
+    margin-top: 9em;
+}
+
+.vagas {
+    color: var(--cor-vinho);
+    background-color: rgba(142, 36, 36, 0.05); 
+    padding: 0.5em 1em;
+    text-decoration: none;
+    border-radius: 1em;
+    font-size: 0.9rem;
+    font-weight: bold;
+    
+}
+
+.vagas-titulo {
+    font-weight: bold;
+    margin-top: 1em;
+    font-size: 1.7rem;
+}
+
+.vagas-texto {
+    color: var(--cor-cinza);
+    margin-top: 1em;
+}
+
+.vagas-imagem {
+    width: 85%;
+    margin-top: 3em;
+}
+
+.vagas-caixa {
+    display: flex;
+    flex-direction: column;
+}
+
+.vagas-area {
+    margin-left: 25%;
+    margin-top: 3em;
+    margin-bottom: 1.5em;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.vagas-borda {
+    margin: 0 auto;
+    margin-bottom: 1.5em;
+    border: 1px solid var(--cor-cinzaclaro);
+    border-radius: 10px;
+    width: 50%;
+    padding: 1.5em;
+}
+
+.vagas-descricao {
+    margin-top: 2em;
+}
+
+.vagas-profissao {
+    font-weight: bold;
+}
+
+.vagas-tempo {
+    margin-right: 1em;
+}
+
+.vagas-tempo, .vagas-informacoes {
+    font-size: 1em;
+    color: var(--cor-cinza);
+}
+
+.depoimentos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color:  rgba(142, 36, 36, 0.05); 
+    width: 70%;
+    margin: 3em auto;
+    border-radius: 5px;
+    padding: 3em 2em;
+}
+
+.depoimentos-img {
+    width: 7%;
+    margin-top: 1em;
+}
+
+.depoimentos-titulo {
+    color: var(--cor-vinho);
+    font-weight: bold;
+    font-size: 0.7em;
+}
+
+.depoimentos-texto {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: 1em;
+    line-height: 1.5em;
+}
+
+.depoimentos-nome {
+    font-weight: bold;
+    margin-top: 1em;
+}
+
+.depoimentos-profissao {
+    color: var(--cor-cinza);
+    margin-top: 0.7em;
+}
+
+footer {
+    background-color: var(--cor-fundofooter);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 3em;
+    gap: 1em;
+}
+
+.footer-caixa {
+    display: flex;
+    gap: 0.7em;
+}
+
+.footer-titulo {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.footer-texto {
+    font-size: 0.9em;
+    color: var(--cor-cinza);
+}
+
+.footer-input {
+    width: 15rem;
+    padding: 0.5em;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid var(--cor-cinzaclaro);
+}
+
+.footer-direitos {
+    color: var(--cor-vinho);
+    font-size: 0.7em;
+}
+
+.botao-footer {
+    background: var(--cor-vinho);
+    color: var(--cor-fundo);
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+}
+
+@media screen and (max-width: 767px) {
+    .navegador {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo {
+        margin-bottom: 1rem;
+    }
+
+    .paginas {
+        margin-top: 1rem;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 1em;
+    }
+
+    .paginas_link {
+        margin: 0.5rem 0.5rem;
+    }
+
+    .botoes-caixa {
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+
+    .botoes {
+        margin: 0.5rem 0;
+        width: 100%;
+        border: 1px solid var(--cor-cinza);
+        border-radius: 5px;
+    }
+
+    .sobre {
+        text-align: center;
+        padding: 0 3em;
+        line-height: 1.6em;
+    }
+
+    .titulo {
+        font-size: 1.5rem;
+    }
+
+    .texto {
+        width: 100%;
+    }
+
+    .metricas-container {
+        flex-direction: column;
+        margin: 2em 1em;
+    }
+
+    .metricas-caixa {
+        text-align: center;
+        margin: 1em 0;
+    }
+
+    .vagas-container {
+        margin-top: 4em;
+        margin-right: 2em;
+        margin-left: 2em;
+    }
+
+    .vagas-imagem {
+        width: 100%;
+    }
+
+    .vagas-caixa {
+        margin: 2em 2em;
+    }
+
+    .vagas-area {
+        margin-left: 0;
+    }
+
+    .vagas-borda {
+        width: 100%;
+    }
+
+    .vagas-descricao {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5em;
+    }
+
+    .depoimentos {
+        width: 100%;
+        margin: 2em 0;
+        padding: 2em;
+    }
+
+    .depoimentos-img {
+        width: 15%;
+    }
+
+    .footer-caixa {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-input {
+        width: 100%;
+    }
+
+    .botao-footer {
+        padding: 5px;
+    }
+}
